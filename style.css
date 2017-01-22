@@ -1,0 +1,46 @@
+#form1
+{
+    background-color: silver;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#form2
+{
+    background-color: silver;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#form3
+{
+    background-color: silver;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#output1
+{
+    background: yellow;
+    font-weight: bold;
+    text-align: center;
+    
+}
+#output2
+{
+    background: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+#output3
+{
+    background: yellow;
+    font-weight: bold;
+    text-align: center;
+}
