@@ -1,0 +1,18 @@
+{
+  "name": "hw4v2",
+  "description": "homework 4",
+  "main": "script.js",
+  "authors": [
+    "Jeremy Joynes <jeremyajoynes@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
