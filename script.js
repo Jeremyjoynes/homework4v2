@@ -1,5 +1,5 @@
-document.addEventListener('submit', function(e){
-    e.preventDefault();
+document.getElementById('form1').addEventListener('click', function (event){
+    event.preventDefault();
     var val1 = document.getElementById('num1').value;
     var val2 = document.getElementById('num2').value;
     var ans = 0;
@@ -23,6 +23,14 @@ document.addEventListener('submit', function(e){
     ansSubmit.innerHTML = ans;
 
 
+
+
+
+})
+
+document.getElementById('form2').addEventListener('click', function (event){
+    event.preventDefault();
+    
     //shortest word
     var str1 = document.getElementById('word1').value;
     var str2 = document.getElementById('word2').value;
@@ -44,8 +52,11 @@ document.addEventListener('submit', function(e){
         holdstr = str1 +" is the same length as "+str2
     }
     ansSub1.innerHTML = holdstr;
+})
 
-//dice rolls
+document.getElementById('form3').addEventListener('click', function (event){
+    event.preventDefault();
+    //dice rolls
     var s = document.getElementById('sides').value;
     var n = document.getElementById('numDice').value;
     var ansSub2 = document.getElementById('output3');
@@ -62,5 +73,4 @@ document.addEventListener('submit', function(e){
     }
 
     ansSub2.innerHTML = total;
-
 })
